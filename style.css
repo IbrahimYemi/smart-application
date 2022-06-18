@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Pacifico&family=Roboto:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+.header {
+    height: 690px;
+    background: #1E5AFA;
+    color: #FAFAFA;
+    padding: 20px 80px;
+    position: relative;
+    width: 100%;
+}
+
+.header header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.header header nav {
+    display: flex;
+    margin-right: auto;
+}
+
+.header header nav li {
+    display: flex;
+    list-style-type: none;
+    cursor: pointer;
+    margin-right: 30px;
+    font-family: 'Inter';
+    line-height: 22px;
+    font-size: 15px;
+    font-weight: 400px;
+}
+
+.header header nav li:last-child {
+    margin-right: 0px;
+}
+
+.header header nav li a {
+    text-decoration: none;
+    color: #FAFAFA;
+}
+
+.header header h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    margin-right: 80px;
+}
+
+.header header .login-signup {
+    margin-left: auto;
+}
+
+.header header .login {
+    background: none;
+    border: none;
+    font-size: 15px;
+    color: #FAFAFA;
+}
+
+.header header .sign-up {
+    background: #FAFAFA;
+    border: none;
+    padding: 10px 35px;
+    border-radius: 5px;
+    margin-left: 8px;
+}
+
+.header header .sign-up:hover {
+    background: #fffcff;
+    color: #1E5AFA;
+}
+
+.header .icons {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 25px;
+    left: 80px;
+}
+
+.header .icons i {
+    margin-bottom: 35px;
+    cursor: pointer;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.header .icons i:hover {
+    color: #1E5AFA;
+    background: #FAFAFA;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.header .header-body {
+    text-align: center;
+    width: 600px;
+    margin: auto;
+}
+
+.header .header-body h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 100%;
+    text-align: center;
+    color: #FAFAFA;
+    padding: 0px 20px;
+    margin-bottom: 30px;
+}
+
+.header .header-body p {
+    margin-bottom: 10px;
+}
+
+.testimonial-words {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: .5px;
+}
+
+.about {
+    padding: 20px 80px;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.about .stretch {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: -1;
+}
+
+.about .decoratortop {
+    position: absolute;
+    right: 0;
+    top: 15%;
+    height: 200px;
+}
+
+.about .download-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 280px;
+    margin-bottom: 10px;
+}
+
+.download-button img {
+    width: 300px;
+}
+
+.about h2 {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -3px;
+    color: #313131;
+    margin-top: 20px;
+}
+
+button {
+    background-color: blue;
+}
