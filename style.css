@@ -146,6 +146,8 @@ body {
     width: 600px;
     margin: auto;
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 .header .header-body h1 {
@@ -177,7 +179,6 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     line-height: 20px;
-    letter-spacing: .5px;
     margin-bottom: 20px;
 }
 
@@ -548,7 +549,7 @@ body {
     line-height: 22px;
     color: #F5F2FF;
     text-align: justify;
-    width: 78ch;
+    width: 100%;
     margin-top: 14px;
 }
 
@@ -737,6 +738,7 @@ footer .footer-end {
         position: relative;
         height: 60px;
         padding: 0px 5px;
+        width: 100%;
     }
     .header header.fixed-top {
         position: fixed;
@@ -791,6 +793,17 @@ footer .footer-end {
         border-radius: 5px;
         margin-left: 8px;
     }
+    .header .header-body {
+        padding: 0px 10px;
+        margin: 10%;
+        width: 80%;
+    }
+    .header .header-body h1 {
+        font-size: 55px;
+        width: 300px;
+        padding: 0px;
+        margin: auto;
+    }
     .header .icons {
         display: none;
         visibility: visible;
@@ -827,12 +840,29 @@ footer .footer-end {
         width: 80%;
         height: auto;
         left: 12%;
-        top: 60%;
+        bottom: 15%;
     }
     .about .stretch {
         width: 400px;
         height: 500px;
     }
+    .testimonial-word {
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        line-height: 20px;
+        margin: 20px 0px;
+        text-align: center;
+    }
+    .testimonial-words {
+        font-family: 'inter', sans-serif;
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 20px;
+        width: 80%;
+        margin: 10%;
+        margin-left: 0px;
+    }
+    
     .about .download-button {
         display: flex;
         justify-content: center;
@@ -885,7 +915,7 @@ footer .footer-end {
     }
     .clients-p {
         text-align: center;
-        width: 65ch;
+        width: 90%;
         margin: auto;
         margin-bottom: 30px;
     }
@@ -923,22 +953,24 @@ footer .footer-end {
         margin: 10px;
         background: #1E5AFA;
         border-radius: 10px;
-        padding: 40px 20px;
+        padding: 20px;
     }
     .newsletter .firsthalf h3 {
-        font-weight: 600;
+        font-weight: 550;
         font-size: 30px;
         line-height: 50px;
     }
     .newsletter .firsthalf .subscribe-words {
-        width: 58ch;
         margin-top: 14px;
+        width: 100%;
+        margin-left: 0px;
     }
     .newsletter .subscribe-button {
         width: 100%;
     }
     .newsletter .subscribe-button .get-started {
         margin: 10px 0px;
+        padding: 15px 25px;
     }
     footer .footer-container {
         display: flex;
