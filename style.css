@@ -715,7 +715,7 @@ footer .footer-end {
 
 
 /* media queries */
-@media only screen and (max-width:860px) {
+@media only screen and (max-width:720px) {
     .about,
     .clients,
     .testimonials,
