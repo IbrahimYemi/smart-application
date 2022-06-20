@@ -727,7 +727,6 @@ footer .footer-end {
         position: relative;
     }
     .header {
-        padding: 0px;
         display: flex;
         flex-direction: column;
         height: 100vh;
@@ -736,8 +735,9 @@ footer .footer-end {
     .header header {
         justify-content: space-between;
         position: relative;
-        height: 60px;
-        padding: 0px 15px;
+        display: flex;
+        height: 80px;
+        padding: 15px;
         width: 100%;
     }
     .header header.fixed-top {
@@ -745,12 +745,10 @@ footer .footer-end {
         top: 0;
         left: 0;
         width: 100%;
-        overflow-y: auto;
         background-color: #FFFFFF;
-        transition: 0.5s;
         z-index: 3;
         box-shadow: 1px 3px 2px lightgrey;
-        padding: 15px;
+        padding: 0px 15px;
         transition: 0.6s;
     }
     .header header .fa-bars{
