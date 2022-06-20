@@ -758,7 +758,7 @@ footer .footer-end {
         background-color: #FFFFFF;
         z-index: 3;
         box-shadow: 1px 3px 2px lightgrey;
-        padding: 10px;
+        padding: 0px 10px;
         transition: 0.6s;
     }
     .header header .fa-bars{
@@ -1007,8 +1007,8 @@ footer .footer-end {
         margin-bottom: 35px;
     }
     footer .footer-end {
-        font-size: 18px;
-        padding: 15px;
+        font-size: 15px;
+        padding: 10px;
     }
     .zigzag{
         right: -5px;
