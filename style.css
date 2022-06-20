@@ -1004,5 +1004,23 @@ footer .footer-end {
     }
     .zigzag{
         right: -5px;
+        height: 200px;
+        border-radius: 20%;
+        width: 50px;
+        background: rgba(0,0,0,.0);
+    }
+    
+    .zigzag .zigzags {
+        height: 40px;
+        z-index: -1;
+        position: absolute;
+        right: 0%;
+    }
+
+    .zigzag .scroll {
+        width: 100px;
+        margin-left: -50px;
+        margin-top: 15px;
+
     }
 }
