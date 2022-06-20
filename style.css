@@ -862,13 +862,20 @@ footer .footer-end {
         margin: 10%;
         margin-left: 0px;
     }
+    .about .stretch {
+        position: absolute;
+        top: 0;
+        left: 5%;
+        z-index: -1;
+        width: 100px;
+    }
     .faq .stretch2 {
         position: absolute;
         top: 0%;
-        left: 20%;
+        left: 2%;
         z-index: -1;
         width: 100px
-        height:300px;
+        height:10px;
     }
     .about .download-button {
         display: flex;
